@@ -13,9 +13,9 @@
 
     // Constants
     log('Set constants');
-    var dateFrom = today();
+    var dateFrom = today(2022-04-08);
     var dateTo = '2022-12-24';
-    var autoConfirm = false;
+    var autoConfirm = true;
 
     var datePickerElem = jQuery('#datepicker');
     if (!localStorage.getItem('TimeSearch')) {
